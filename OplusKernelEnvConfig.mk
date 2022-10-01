@@ -98,7 +98,6 @@ OPLUS_ARCH_INJECT \
 OPLUS_ARCH_EXTENDS \
 VENDOR_EDIT \
 COLOROS_EDIT \
-OPLUS_FEATURE_POWERINFO_STANDBY \
 OPLUS_FEATURE_POWERINFO_STANDBY_DEBUG \
 OPLUS_FEATURE_POWERINFO_RPMH \
 OPLUS_FEATURE_POWERINFO_FTM \
@@ -164,27 +163,6 @@ $(warning "OPLUS_VND_ENV_CHG_OP9RT_PMIC_VOOCPHY is $(strip $(OPLUS_VND_ENV_CHG_O
 ifeq ($(OPLUS_VND_ENV_CHG_OP9RT_PMIC_VOOCPHY),yes)
 export CONFIG_OPLUS_CHG_OP9RT_PMIC_VOOCPHY=y
 endif
-
-#ifdef OPLUS_FEATURE_POWERINFO_STANDBY
-inner_mk_path := $(abspath $(lastword $(MAKEFILE_LIST)))
-inner_mk_dir := $(shell dirname $(inner_mk_path))
-inner_oplus_wakelock_dir1 := $(inner_mk_dir)/../vendor/oplus/kernel/wakelock_profiler
-inner_oplus_wakelock_dir2 := $(inner_mk_dir)/../vendor/oplus/kernel/oplus_wakelock_profiler
-inner_oplus_wakelock_dir1_exist := $(shell if [ -d $(inner_oplus_wakelock_dir1) ]; then echo "exist"; else echo "notexist"; fi;)
-inner_oplus_wakelock_dir2_exist := $(shell if [ -d $(inner_oplus_wakelock_dir2) ]; then echo "exist"; else echo "notexist"; fi;)
-
-inner_oplus_link_name := oplus_wakelock
-inner_oplus_link_target := $(inner_mk_dir)/../kernel/msm-5.4/drivers/soc/oplus/$(inner_oplus_link_name)
-ifeq ($(inner_oplus_wakelock_dir1_exist), exist)
-$(warning "source is $(inner_oplus_wakelock_dir1)")
-$(shell ln -sf $(inner_oplus_wakelock_dir1) $(inner_oplus_link_target))
-else ifeq ($(inner_oplus_wakelock_dir2_exist), exist)
-$(warning "source is $(inner_oplus_wakelock_dir2)")
-$(shell ln -sf $(inner_oplus_wakelock_dir2) $(inner_oplus_link_target))
-else
-$(warning "source is nothing")
-endif
-#endif /* OPLUS_FEATURE_POWERINFO_STANDBY */
 
 KBUILD_CFLAGS += -DOPLUS_FEATURE_LOWMEM_DBG
 

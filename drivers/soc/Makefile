@@ -35,10 +35,6 @@ obj-y						+= oplus/sensor/
 #endif
 #endif /* VENDOR_EDIT */
 
-#ifdef OPLUS_FEATURE_POWERINFO_STANDBY
-obj-$(CONFIG_OPLUS_WAKELOCK_PROFILER) += oplus/oplus_wakelock/
-#endif /* OPLUS_FEATURE_POWERINFO_STANDBY */
-
 #ifdef OPLUS_FEATURE_TP_BASIC
 obj-$(CONFIG_OPLUS_DEVICE_IFNO)  +=  oplus/device_info/
 #endif /* OPLUS_FEATURE_TP_BASIC */
