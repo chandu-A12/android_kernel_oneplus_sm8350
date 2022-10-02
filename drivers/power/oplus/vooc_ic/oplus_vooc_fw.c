@@ -41,7 +41,7 @@
 #include <linux/regulator/driver.h>
 #include <linux/regulator/of_regulator.h>
 #include <linux/regulator/machine.h>
-#include <soc/oplus/system/boot_mode.h>
+#include <soc/oplus/system/include/boot_mode.h>
 #endif
 
 #include "../oplus_charger.h"

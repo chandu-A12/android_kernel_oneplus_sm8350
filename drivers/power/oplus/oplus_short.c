@@ -43,7 +43,7 @@
 #endif
 #include <linux/ktime.h>
 #include <linux/kernel.h>
-#include <soc/oplus/system/boot_mode.h>
+#include <../../../include/soc/oplus/boot_mode.h>
 #endif
 
 #include "oplus_charger.h"

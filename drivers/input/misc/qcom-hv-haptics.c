@@ -29,7 +29,7 @@
 #include <linux/qpnp/qpnp-pbs.h>
 
 #ifdef OPLUS_FEATURE_CHG_BASIC
-#include <soc/oplus/system/boot_mode.h>
+#include <../../../include/soc/oplus/boot_mode.h>
 #undef dev_dbg
 #define dev_dbg dev_err
 #define RICHTAP_FOR_PMIC_ENABLE

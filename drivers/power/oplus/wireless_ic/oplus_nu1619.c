@@ -44,7 +44,7 @@
 #include "oplus_nu1619.h"
 #include "oplus_nu1619_fw.h"
 #include "../oplus_debug_info.h"
-#include <soc/oplus/system/boot_mode.h>
+#include <../../../../include/soc/oplus/boot_mode.h>
 
 #define DEBUG_BY_FILE_OPS
 #define DEBUG_FASTCHG_BY_ADB

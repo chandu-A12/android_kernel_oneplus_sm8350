@@ -78,7 +78,7 @@
 #include <linux/qpnp/qpnp-adc.h>
 #include <linux/msm_bcl.h>
 #endif
-#include <soc/oplus/system/boot_mode.h>
+#include <../../../include/soc/oplus/boot_mode.h>
 #ifdef CONFIG_OPLUS_MSM8953N_CHARGER
 #include "charger_ic/oplus_battery_msm8953_N.h"
 #elif defined CONFIG_OPLUS_MSM8953_CHARGER

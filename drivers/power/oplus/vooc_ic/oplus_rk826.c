@@ -50,8 +50,8 @@
 #include <linux/regulator/of_regulator.h>
 #include <linux/regulator/machine.h>
 #include <soc/oplus/device_info.h>
-#include <soc/oplus/system/boot_mode.h>
-#include <soc/oplus/system/oplus_project.h>
+#include <../../../../include/soc/oplus/boot_mode.h>
+#include <../../../../include/soc/oplus/system/oplus_project.h>
 #endif
 #include "oplus_vooc_fw.h"
 
