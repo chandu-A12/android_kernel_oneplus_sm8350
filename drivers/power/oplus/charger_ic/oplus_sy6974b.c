@@ -33,7 +33,7 @@
 #include "../oplus_adapter.h"
 #include "../charger_ic/oplus_short_ic.h"
 #include "../gauge_ic/oplus_bq27541.h"
-#include <soc/oplus/system/boot_mode.h>
+#include <../../../../include/soc/oplus/boot_mode.h>
 #include "../oplus_chg_ops_manager.h"
 #include "../voocphy/oplus_voocphy.h"
 

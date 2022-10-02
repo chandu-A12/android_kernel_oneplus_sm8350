@@ -21,7 +21,7 @@
 #include <linux/oem/oplus_chg_voter.h>
 #else
 #include <linux/oplus_chg.h>
-#include <soc/oplus/system/boot_mode.h>
+#include <../../../../include/soc/oplus/boot_mode.h>
 #include <linux/oplus_chg_voter.h>
 #endif
 #ifndef CONFIG_OPLUS_CHARGER_MTK

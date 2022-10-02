@@ -44,7 +44,7 @@
 #include "oplus_chargepump.h"
 #include "oplus_p9418.h"
 #include "oplus_p9418_fw.h"
-#include <soc/oplus/system/boot_mode.h>
+#include <../../../../include/soc/oplus/boot_mode.h>
 
 #define DEBUG_BY_FILE_OPS
 #define P9418_WAIT_TIME 120		/* sec */

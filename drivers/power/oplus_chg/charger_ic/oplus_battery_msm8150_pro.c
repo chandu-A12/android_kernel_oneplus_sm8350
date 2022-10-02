@@ -48,7 +48,7 @@
 #include <linux/oem/boot_mode.h>
 #include <linux/oem/project_info.h>
 #else
-#include <soc/oplus/system/boot_mode.h>
+#include <../../../../include/soc/oplus/boot_mode.h>
 #endif
 #include "oplus_battery_msm8150_pro.h"
 #include "../oplus_charger.h"

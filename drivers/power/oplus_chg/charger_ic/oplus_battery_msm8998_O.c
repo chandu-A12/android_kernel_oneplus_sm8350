@@ -37,7 +37,7 @@
 #include <linux/oem/boot_mode.h>
 #include <linux/oem/project_info.h>
 #else
-#include <soc/oplus/system/boot_mode.h>
+#include <../../../../include/soc/oplus/boot_mode.h>
 #endif
 
 #ifdef VENDOR_EDIT

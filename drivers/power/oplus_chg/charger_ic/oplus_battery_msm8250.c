@@ -40,7 +40,7 @@
 #include <linux/kthread.h>
 #include <linux/usb/typec.h>
 #include <linux/usb/usbpd.h>
-//#include <soc/oplus/system/boot_mode.h>
+//#include <../../../../include/soc/oplus/boot_mode.h>
 ////#include <soc/oplus/device_info.h>
 #include <soc/oplus/system/oplus_project.h>
 #include "oplus_battery_msm8250.h"

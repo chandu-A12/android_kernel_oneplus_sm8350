@@ -46,7 +46,7 @@
 #ifdef CONFIG_OPLUS_CHG_OOS
 #include <linux/oem/boot_mode.h>
 #else
-#include <soc/oplus/system/boot_mode.h>
+#include <../../../../include/soc/oplus/boot_mode.h>
 #endif
 #endif
 

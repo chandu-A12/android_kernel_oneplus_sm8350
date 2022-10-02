@@ -30,7 +30,7 @@
 #include <linux/regulator/of_regulator.h>
 #include <linux/regulator/machine.h>
 
-#include <soc/oplus/system/boot_mode.h>
+#include <../../../../include/soc/oplus/boot_mode.h>
 #include "../oplus_charger.h"
 #include "../oplus_gauge.h"
 #include "../oplus_vooc.h"

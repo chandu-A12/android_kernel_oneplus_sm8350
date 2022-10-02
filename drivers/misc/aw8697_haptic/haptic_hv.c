@@ -38,7 +38,7 @@
 #include <linux/proc_fs.h>
 #ifdef OPLUS_FEATURE_CHG_BASIC
 #include <soc/oplus/system/oplus_project.h>
-#include <soc/oplus/system/boot_mode.h>
+#include <../../../../include/soc/oplus/boot_mode.h>
 #endif
 
 #include "haptic_hv.h"

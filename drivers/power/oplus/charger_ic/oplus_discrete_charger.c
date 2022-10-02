@@ -42,7 +42,7 @@
 #include "../oplus_configfs.h"
 #include "../oplus_chg_ops_manager.h"
 #include "../voocphy/oplus_voocphy.h"
-#include <soc/oplus/system/boot_mode.h>
+#include <../../../../include/soc/oplus/boot_mode.h>
 #include "oplus_sy6974b.h"
 #include "oplus_discrete_charger.h"
 #include <linux/nvmem-consumer.h>

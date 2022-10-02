@@ -29,7 +29,7 @@
 #include <soc/oplus/system/oplus_project.h>
 #endif
 #ifdef CONFIG_OPLUS_HAPTIC_OOS
-#include <soc/oplus/system/boot_mode.h>
+#include <../../../../include/soc/oplus/boot_mode.h>
 #endif
 
 #ifdef CONFIG_OPLUS_HAPTIC_OOS

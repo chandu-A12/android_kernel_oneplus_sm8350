@@ -47,7 +47,7 @@
 #include "../gauge_ic/oplus_bq27541.h"
 #include "op_charge.h"
 #ifdef OPLUS_FEATURE_CHG_BASIC
-//#include <soc/oplus/system/boot_mode.h>
+//#include <../../../../include/soc/oplus/boot_mode.h>
 ////#include <soc/oplus/device_info.h>
 static struct task_struct *oplus_usbtemp_kthread;
 DECLARE_WAIT_QUEUE_HEAD(oplus_usbtemp_wq);

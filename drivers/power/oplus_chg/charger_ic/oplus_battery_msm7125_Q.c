@@ -37,7 +37,7 @@
 #include "../../../../kernel/msm-4.14/drivers/power/supply/qcom/battery.h"
 #include "../../../../kernel/msm-4.14/drivers/power/supply/qcom/storm-watch.h"
 
-#include <soc/oplus/system/boot_mode.h>
+#include <../../../../include/soc/oplus/boot_mode.h>
 //#include <soc/oplus/device_info.h>
 #include <soc/oplus/system/oplus_project.h>
 

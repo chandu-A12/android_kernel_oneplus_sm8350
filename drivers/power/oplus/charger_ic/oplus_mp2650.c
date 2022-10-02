@@ -56,7 +56,7 @@ extern void mt_power_off(void);
 #include <linux/rtc.h>
 #include <soc/oplus/device_info.h>
 
-#include <soc/oplus/system/boot_mode.h>
+#include <../../../../include/soc/oplus/boot_mode.h>
 
 #endif
 

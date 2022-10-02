@@ -27,7 +27,7 @@
 #include <linux/delay.h>
 #include <linux/sched/debug.h>
 #include <linux/nmi.h>
-#include <soc/oplus/system/boot_mode.h>
+#include <../../../../include/soc/oplus/boot_mode.h>
 #if IS_MODULE(CONFIG_OPLUS_FEATURE_THEIA)
 #include <linux/sysrq.h>
 #endif
@@ -60,7 +60,7 @@
 #include <linux/delay.h>
 #include <linux/sched/debug.h>
 #include <linux/nmi.h>
-#include <soc/oplus/system/boot_mode.h>
+#include <../../../../include/soc/oplus/boot_mode.h>
 #if IS_MODULE(CONFIG_OPLUS_FEATURE_THEIA)
 #include <linux/sysrq.h>
 #endif

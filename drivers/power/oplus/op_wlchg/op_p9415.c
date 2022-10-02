@@ -21,7 +21,7 @@
 #include <linux/rtc.h>
 #include <linux/version.h>
 //#include <linux/oem/boot_mode.h>
-#include <soc/oplus/system/boot_mode.h>
+#include <../../../../include/soc/oplus/boot_mode.h>
 #include <linux/pmic-voter.h>
 //#include <linux/power/op_wlc_helper.h>
 #include "../oplus_gauge.h"

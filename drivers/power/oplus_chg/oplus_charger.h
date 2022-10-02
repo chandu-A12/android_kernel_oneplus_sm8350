@@ -62,7 +62,7 @@
 #include <linux/oem/boot_mode.h>
 #include <linux/oem/oplus_chg.h>
 #else
-#include <soc/oplus/system/boot_mode.h>
+#include <../../../../include/soc/oplus/boot_mode.h>
 #include <linux/oplus_chg.h>
 #endif
 #ifdef CONFIG_OPLUS_MSM8953N_CHARGER
