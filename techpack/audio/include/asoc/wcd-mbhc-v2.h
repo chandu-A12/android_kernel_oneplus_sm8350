@@ -656,10 +656,6 @@ struct wcd_mbhc {
 	#ifdef OPLUS_ARCH_EXTENDS
 	bool enable_hp_impedance_detect;
 	#endif /* OPLUS_ARCH_EXTENDS */
-
-	#ifdef OPLUS_ARCH_EXTENDS
-	unsigned int headset_detect_mode;
-	#endif /* OPLUS_ARCH_EXTENDS */
 };
 
 void wcd_mbhc_find_plug_and_report(struct wcd_mbhc *mbhc,
